@@ -56,7 +56,7 @@ ROOT_URLCONF = 'pollapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'polls' / 'templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'polls', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
