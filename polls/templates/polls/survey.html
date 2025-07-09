@@ -1,0 +1,20 @@
+{% extends "base_generic.html" %}
+{% block content %}
+  <h2>Survey Mode</h2>
+  <form method="post" action="{% url 'polls:survey_submit' %}">
+    {% csrf_token %}
+    {% for question in questions %}
+      <div>
+        <p><strong>{{ forloop.counter }}. {{ question.question_text }}</strong></p>
+        {% for choice in question.choice_set.all %}
+          <label>
+            <input type="radio" name="question_{{ question.id }}" value="{{ choice.id }}" required>
+            {{ choice.choice_text }}
+          </label><br>
+        {% endfor %}
+      </div>
+      <hr>
+    {% endfor %}
+    <button type="submit">Submit Survey</button>
+  </form>
+{% endblock %}

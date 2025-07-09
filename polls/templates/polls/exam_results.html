@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+{% block content %}
+  <h2>Exam Completed</h2>
+  <p>You scored <strong>{{ score }}</strong> out of <strong>{{ total }}</strong>.</p>
+  <p>That's <strong>{{ percent }}%</strong>.</p>
+
+  <h3>
+    {% if percent >= 70 %}
+       You did really well!
+    {% elif percent >= 40 %}
+       Not bad but keep practicing.
+    {% else %}
+       You didn't do that great, but don't give up!
+    {% endif %}
+  </h3>
+
+  <a href="{% url 'polls:choose_mode' %}">Back to Mode Selection</a>
+{% endblock %}
