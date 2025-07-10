@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Welcome!</h2>
+  <p>Please choose a mode:</p>
+
+  <a href="{% url 'exam_mode' %}">Exam Mode</a> <br>
+  <a href="{% url 'survey_mode' %}">Survey Mode</a>
+{% endblock %}

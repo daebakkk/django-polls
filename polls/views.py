@@ -6,6 +6,9 @@ from django.contrib.auth.decorators import login_required
 from .models import Question, Choice
 from django.http import HttpResponseRedirect
 from django.urls import reverse
+def home(request):
+    return redirect('choose_mode')
+
 def index(request):
     latest_questions = Question.objects.order_by('-pub_date')[:5]
     return render(request, 'polls/index.html', {'questions': latest_questions})
