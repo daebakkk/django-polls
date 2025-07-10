@@ -73,7 +73,7 @@ def exam_submit(request):
                 except (ValueError, Choice.DoesNotExist):
                     continue
         percent = round((score / total) * 100) if total > 0 else 0
-        return render(request, 'polls/exam_result.html', {
+        return render(request, 'polls/exam_results.html', {
             'score': score,
             'total': total,
             'percent': percent
