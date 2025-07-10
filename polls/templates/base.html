@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Django Polls</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+  <title>Django Polls</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+    }
+    nav {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
 
