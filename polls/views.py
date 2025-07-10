@@ -96,7 +96,20 @@ def survey_submit(request):
                     choice.save()
                 except Choice.DoesNotExist:
                     continue
+
         questions = Question.objects.filter(mode='SURVEY')
-        return render(request, 'polls/survey_result.html', {'questions': questions})
+        results = []
+
+        for question in questions:
+            choices = question.choice_set.all()
+            total_votes = sum(choice.votes for choice in choices)
+            results.append({
+                'question': question,
+                'choices': choices,
+                'total_votes': total_votes
+            })
+
+        return render(request, 'polls/survey_result.html', {'results': results})
+
     return redirect('polls:survey')
 
