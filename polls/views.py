@@ -7,7 +7,7 @@ from .models import Question, Choice
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 def home(request):
-    return redirect('choose_mode')
+    return redirect(reverse('polls:choose_mode'))
 
 def index(request):
     latest_questions = Question.objects.order_by('-pub_date')[:5]
