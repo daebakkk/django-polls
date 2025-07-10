@@ -20,7 +20,7 @@ from polls import views as polls_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('polls.urls')),
+    path('', include('polls.urls', namespace='polls')),
     path('accounts/', include('django.contrib.auth.urls')),
     path('signup/', polls_views.signup, name='signup'),
 ]
