@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
+from django.db.models import Sum
 
 # Create your views here.
 from .models import Question, Choice
@@ -102,7 +103,7 @@ def survey_submit(request):
 
         for question in questions:
             choices = question.choice_set.all()
-            total_votes = sum(choice.votes for choice in choices)
+            total_votes = choices.aggregate(Sum('votes'))['votes__sum'] or 0
             results.append({
                 'question': question,
                 'choices': choices,
