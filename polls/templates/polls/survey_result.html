@@ -18,6 +18,9 @@
           {{ choice.choice_text }} - {{ choice.votes }} vote{{ choice.votes|pluralize }},
           {{ percent }}%
         </p>
+        {% if item.total_votes == 0 %}
+          {% endwith %}
+        {% endif %}
       {% endfor %}
       <hr>
     </div>
