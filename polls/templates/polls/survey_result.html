@@ -11,15 +11,14 @@
       {% for choice in item.choices %}
         {% if item.total_votes > 0 %}
           {% widthratio choice.votes item.total_votes 100 as percent %}
-        {% else %}
-          {% with 0 as percent %}
-        {% endif %}
         <p>
           {{ choice.choice_text }} - {{ choice.votes }} vote{{ choice.votes|pluralize }},
           {{ percent }}%
         </p>
-        {% if item.total_votes == 0 %}
-          {% endwith %}
+        {% else %}
+          <p>
+            {{ choice.choice_text }} - {{ choice.votes }} vote{{ choice.votes|pluralize }}, 0%
+          </p>
         {% endif %}
       {% endfor %}
       <hr>
