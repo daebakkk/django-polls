@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
   <h2>Choose a Mode</h2>
+  <div style="text-align: center;">
   <a href="{% url 'polls:exam' %}"><button>Exam Mode</button></a>
   <a href="{% url 'polls:survey' %}"><button>Survey Mode</button></a>
+  </div>
 {% endblock %}

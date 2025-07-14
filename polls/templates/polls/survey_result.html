@@ -4,21 +4,22 @@
   <p>Thank you for completing the survey.</p>
 
   <h3>Results:</h3>
-  {% for result in results %}
+  {% for question in questions %}
     <div>
-      {% for choice in result.choices %}
-        {% if result.total_votes > 0 %}
-          {% with percent=choice.votes|floatformat:2 %}
-            <p>
-              {{ choice.choice_text }} - {{ choice.votes }} vote{{ choice.votes|pluralize }},
-              {{ choice.votes|divisibleby:result.total_votes|yesno:"100,0" }}%
-            </p>
+      <p><strong>{{ question.question_text }}</strong></p>
+      {% with total=0 %}
+        {% for choice in question.choice_set.all %}
+          {% with total=total|add:choice.votes %}
           {% endwith %}
-        {% else %}
-          <p>{{ choice.choice_text }} - {{ choice.votes }} votes</p>
-        {% endif %}
+        {% endfor %}
+      {% endwith %}
+      {% for choice in question.choice_set.all %}
+        {% with percent=choice.votes|floatformat:2 %}
+          <p>{{ choice.choice_text }} – {{ choice.votes }} vote{{ choice.votes|pluralize }}, {{ percent }}%</p>
+        {% endwith %}
       {% endfor %}
-      <hr>
     </div>
+    <hr>
   {% endfor %}
+  <a href="{% url 'polls:choose_mode' %}"><button>Go Back to Mode Selection</button></a>
 {% endblock %}

@@ -5,22 +5,57 @@
   <link rel="stylesheet" href="{% static 'polls/style.css' %}">
   <title>Django Polls</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 600px;
+     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      max-width: 800px;
       margin: 40px auto;
+      padding: 20px;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #222;
     }
     button {
-      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
       margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    form {
+      margin-top: 20px;
+    }
+    .choice {
+      margin-bottom: 10px;
     }
     nav {
       margin-bottom: 20px;
+      text-align: right;
     }
-  </style>
-</head>
-<body>
-
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="container">
   <nav>
     <a href="{% url 'polls:choose_mode' %}">Home</a>
     {% if user.is_authenticated %}
@@ -31,9 +66,9 @@
       <a href="{% url 'signup' %}">Sign Up</a>
     {% endif %}
   </nav>
+</div>
 
   <hr>
-
   {% block content %}
   {% endblock %}
 
