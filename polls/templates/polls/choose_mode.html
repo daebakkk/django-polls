@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+  <h1>Welcome, {{ user.username }}!</h1>
   <h2>Choose a Mode</h2>
   <div style="text-align: center;">
   <a href="{% url 'polls:exam' %}"><button>Exam Mode</button></a>
