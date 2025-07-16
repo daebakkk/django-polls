@@ -1,4 +1,4 @@
-{% extends "base.html "%}
+{% extends "base.html" %}
   {% if user.is_authenticated %}
     <script>
       window.location.href = "{% url 'polls:choose_mode' %}";
