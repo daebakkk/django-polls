@@ -1,42 +1,6 @@
 [
 {
   "model": "polls.question",
-  "pk": 1,
-  "fields": {
-    "question_text": "How old are you?",
-    "pub_date": "2025-07-03T07:00:00Z",
-    "mode": "SURVEY"
-  }
-},
-{
-  "model": "polls.question",
-  "pk": 2,
-  "fields": {
-    "question_text": "What is Aliyat doing?",
-    "pub_date": "2025-07-03T07:00:00Z",
-    "mode": "SURVEY"
-  }
-},
-{
-  "model": "polls.question",
-  "pk": 3,
-  "fields": {
-    "question_text": "What's your favourite food?",
-    "pub_date": "2025-07-03T07:00:00Z",
-    "mode": "SURVEY"
-  }
-},
-{
-  "model": "polls.question",
-  "pk": 4,
-  "fields": {
-    "question_text": "What is today's date",
-    "pub_date": "2025-07-03T07:00:00Z",
-    "mode": "SURVEY"
-  }
-},
-{
-  "model": "polls.question",
   "pk": 5,
   "fields": {
     "question_text": "What is 2 x 2?",

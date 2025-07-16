@@ -1,0 +1,974 @@
+[
+  {
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+      "question_text": "How satisfied are you with our customer service?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+      "question": 1,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+      "question": 1,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+      "question": 1,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 4,
+    "fields": {
+      "question": 1,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 5,
+    "fields": {
+      "question": 1,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 2,
+    "fields": {
+      "question_text": "How often do you use our product?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 6,
+    "fields": {
+      "question": 2,
+      "choice_text": "Daily",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 7,
+    "fields": {
+      "question": 2,
+      "choice_text": "Weekly",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 8,
+    "fields": {
+      "question": 2,
+      "choice_text": "Monthly",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 9,
+    "fields": {
+      "question": 2,
+      "choice_text": "Rarely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 10,
+    "fields": {
+      "question": 2,
+      "choice_text": "Never",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 3,
+    "fields": {
+      "question_text": "What features do you value the most?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 11,
+    "fields": {
+      "question": 3,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 12,
+    "fields": {
+      "question": 3,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 13,
+    "fields": {
+      "question": 3,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 14,
+    "fields": {
+      "question": 3,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 15,
+    "fields": {
+      "question": 3,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 4,
+    "fields": {
+      "question_text": "How likely are you to recommend us to a friend?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 16,
+    "fields": {
+      "question": 4,
+      "choice_text": "Very Likely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 17,
+    "fields": {
+      "question": 4,
+      "choice_text": "Likely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 18,
+    "fields": {
+      "question": 4,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 19,
+    "fields": {
+      "question": 4,
+      "choice_text": "Unlikely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 20,
+    "fields": {
+      "question": 4,
+      "choice_text": "Very Unlikely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 5,
+    "fields": {
+      "question_text": "How easy was it to navigate our website?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 21,
+    "fields": {
+      "question": 5,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 22,
+    "fields": {
+      "question": 5,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 23,
+    "fields": {
+      "question": 5,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 24,
+    "fields": {
+      "question": 5,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 25,
+    "fields": {
+      "question": 5,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 6,
+    "fields": {
+      "question_text": "What do you think about our pricing?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 26,
+    "fields": {
+      "question": 6,
+      "choice_text": "Excellent",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 27,
+    "fields": {
+      "question": 6,
+      "choice_text": "Good",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 28,
+    "fields": {
+      "question": 6,
+      "choice_text": "Average",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 29,
+    "fields": {
+      "question": 6,
+      "choice_text": "Poor",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 30,
+    "fields": {
+      "question": 6,
+      "choice_text": "Very Poor",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 7,
+    "fields": {
+      "question_text": "How would you rate our mobile app?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 31,
+    "fields": {
+      "question": 7,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 32,
+    "fields": {
+      "question": 7,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 33,
+    "fields": {
+      "question": 7,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 34,
+    "fields": {
+      "question": 7,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 35,
+    "fields": {
+      "question": 7,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 8,
+    "fields": {
+      "question_text": "How responsive is our support team?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 36,
+    "fields": {
+      "question": 8,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 37,
+    "fields": {
+      "question": 8,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 38,
+    "fields": {
+      "question": 8,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 39,
+    "fields": {
+      "question": 8,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 40,
+    "fields": {
+      "question": 8,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 9,
+    "fields": {
+      "question_text": "What do you think about the quality of our product?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 41,
+    "fields": {
+      "question": 9,
+      "choice_text": "Excellent",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 42,
+    "fields": {
+      "question": 9,
+      "choice_text": "Good",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 43,
+    "fields": {
+      "question": 9,
+      "choice_text": "Average",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 44,
+    "fields": {
+      "question": 9,
+      "choice_text": "Poor",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 45,
+    "fields": {
+      "question": 9,
+      "choice_text": "Very Poor",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 10,
+    "fields": {
+      "question_text": "How likely are you to purchase again?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 46,
+    "fields": {
+      "question": 10,
+      "choice_text": "Very Likely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 47,
+    "fields": {
+      "question": 10,
+      "choice_text": "Likely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 48,
+    "fields": {
+      "question": 10,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 49,
+    "fields": {
+      "question": 10,
+      "choice_text": "Unlikely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 50,
+    "fields": {
+      "question": 10,
+      "choice_text": "Very Unlikely",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 11,
+    "fields": {
+      "question_text": "How did you hear about us?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 51,
+    "fields": {
+      "question": 11,
+      "choice_text": "Social Media",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 52,
+    "fields": {
+      "question": 11,
+      "choice_text": "Friend/Family",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 53,
+    "fields": {
+      "question": 11,
+      "choice_text": "Search Engine",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 54,
+    "fields": {
+      "question": 11,
+      "choice_text": "Advertisement",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 55,
+    "fields": {
+      "question": 11,
+      "choice_text": "Other",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 12,
+    "fields": {
+      "question_text": "Do you find our product user-friendly?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 56,
+    "fields": {
+      "question": 12,
+      "choice_text": "Yes",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 57,
+    "fields": {
+      "question": 12,
+      "choice_text": "No",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 13,
+    "fields": {
+      "question_text": "How important is sustainability in your purchase decision?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 58,
+    "fields": {
+      "question": 13,
+      "choice_text": "Very Important",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 59,
+    "fields": {
+      "question": 13,
+      "choice_text": "Somewhat Important",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 60,
+    "fields": {
+      "question": 13,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 61,
+    "fields": {
+      "question": 13,
+      "choice_text": "Not Very Important",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 62,
+    "fields": {
+      "question": 13,
+      "choice_text": "Not Important At All",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 14,
+    "fields": {
+      "question_text": "Are you satisfied with the delivery time?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 63,
+    "fields": {
+      "question": 14,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 64,
+    "fields": {
+      "question": 14,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 65,
+    "fields": {
+      "question": 14,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 66,
+    "fields": {
+      "question": 14,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 67,
+    "fields": {
+      "question": 14,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 15,
+    "fields": {
+      "question_text": "Would you like to see more variety in our product line?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 68,
+    "fields": {
+      "question": 15,
+      "choice_text": "Yes",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 69,
+    "fields": {
+      "question": 15,
+      "choice_text": "No",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 16,
+    "fields": {
+      "question_text": "Do you feel valued as a customer?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 70,
+    "fields": {
+      "question": 16,
+      "choice_text": "Yes",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 71,
+    "fields": {
+      "question": 16,
+      "choice_text": "No",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 17,
+    "fields": {
+      "question_text": "What could we improve?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 72,
+    "fields": {
+      "question": 17,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 73,
+    "fields": {
+      "question": 17,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 74,
+    "fields": {
+      "question": 17,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 75,
+    "fields": {
+      "question": 17,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 76,
+    "fields": {
+      "question": 17,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 18,
+    "fields": {
+      "question_text": "Are our promotions helpful to you?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 77,
+    "fields": {
+      "question": 18,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 78,
+    "fields": {
+      "question": 18,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 79,
+    "fields": {
+      "question": 18,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 80,
+    "fields": {
+      "question": 18,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 81,
+    "fields": {
+      "question": 18,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 19,
+    "fields": {
+      "question_text": "Would you participate in a loyalty program?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 82,
+    "fields": {
+      "question": 19,
+      "choice_text": "Yes",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 83,
+    "fields": {
+      "question": 19,
+      "choice_text": "No",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.question",
+    "pk": 20,
+    "fields": {
+      "question_text": "How well do we meet your expectations?",
+      "mode": "SURVEY",
+      "pub_date": "2025-07-16T10:34:46.974858"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 84,
+    "fields": {
+      "question": 20,
+      "choice_text": "Strongly Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 85,
+    "fields": {
+      "question": 20,
+      "choice_text": "Agree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 86,
+    "fields": {
+      "question": 20,
+      "choice_text": "Neutral",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 87,
+    "fields": {
+      "question": 20,
+      "choice_text": "Disagree",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 88,
+    "fields": {
+      "question": 20,
+      "choice_text": "Strongly Disagree",
+      "votes": 0
+    }
+  }
+]
