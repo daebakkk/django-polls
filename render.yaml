@@ -2,8 +2,6 @@ services:
   - type: web
     name: my-django-polls
     env: python
-    buildCommand: "./build.sh"
-    startCommand: |
-      python manage.py migrate
-      python manage.py loaddata polls/fixtures/exam_questions.json
-      gunicorn pollapp.wsgi:application
+    buildCommand: "./manage.py collectstatic --noinput"
+    startCommand: "gunicorn pollapp.wsgi:application"
+    preDeployCommand: "./manage.py migrate && ./manage.py loaddata exam_questions.json"
