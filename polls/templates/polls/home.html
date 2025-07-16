@@ -1,9 +1,26 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h2>Welcome!</h2>
-  <p>Please choose a mode:</p>
+<div class="home-container">
+  <h1>Welcome to the Poll App!</h1>
+  <div class="auth-buttons">
+    <a href="{% url 'login' %}"><button>Login</button></a>
+    <a href="{% url 'signup' %}"><button>Sign Up</button></a>
+  </div>
+</div>
 
-  <a href="{% url 'exam_mode' %}">Exam Mode</a> <br>
-  <a href="{% url 'survey_mode' %}">Survey Mode</a>
+<style>
+  .home-container {
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .auth-buttons button {
+    margin: 10px;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
 {% endblock %}
