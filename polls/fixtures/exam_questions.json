@@ -92,51 +92,50 @@
   },
 
   {
-    "model": "polls.question",
-    "pk": 3,
-    "fields": {
-      "question_text": "How many legs does a spider have?",
-      "mode": "EXAM",
-      "pub_date": "2025-07-16T10:02:00Z"
-    }
-  },
-  {
-    "model": "polls.choice",
-    "pk": 9,
-    "fields": {
-      "question": 3,
-      "choice_text": "6",
-      "is_correct": false
-    }
-  },
-  {
-    "model": "polls.choice",
-    "pk": 10,
-    "fields": {
-      "question": 3,
-      "choice_text": "8",
-      "is_correct": true
-    }
-  },
-  {
-    "model": "polls.choice",
-    "pk": 11,
-    "fields": {
-      "question": 3,
-      "choice_text": "10",
-      "is_correct": false
-    }
-  },
-  {
-    "model": "polls.choice",
-    "pk": 12,
-    "fields": {
-      "question": 3,
-      "choice_text": "12",
-      "is_correct": false
-    }
-  },
-
+  "model": "polls.question",
+  "pk": 3,
+  "fields": {
+    "question_text": "In computer science, what does the acronym 'SQL' stand for?",
+    "mode": "EXAM",
+    "pub_date": "2025-07-16T08:03:00Z"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 9,
+  "fields": {
+    "question": 3,
+    "choice_text": "Structured Query Language",
+    "is_correct": true
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 10,
+  "fields": {
+    "question": 3,
+    "choice_text": "Sequential Query Logic",
+    "is_correct": false
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 11,
+  "fields": {
+    "question": 3,
+    "choice_text": "Systematic Query Listing",
+    "is_correct": false
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 12,
+  "fields": {
+    "question": 3,
+    "choice_text": "Standard Query Line",
+    "is_correct": false
+  }
+},
   {
     "model": "polls.question",
     "pk": 4,
@@ -461,9 +460,9 @@
   "model": "polls.question",
   "pk": 11,
   "fields": {
-    "question_text": "Which country is famous for the Eiffel Tower?",
+    "question_text": "Who wrote the play 'Romeo and Juliet'?",
     "mode": "EXAM",
-    "pub_date": "2025-07-16T10:10:00Z"
+    "pub_date": "2025-07-16T08:02:00Z"
   }
 },
 {
@@ -471,8 +470,8 @@
   "pk": 41,
   "fields": {
     "question": 11,
-    "choice_text": "Italy",
-    "is_correct": false
+    "choice_text": "William Shakespeare",
+    "is_correct": true
   }
 },
 {
@@ -480,7 +479,7 @@
   "pk": 42,
   "fields": {
     "question": 11,
-    "choice_text": "Spain",
+    "choice_text": "Jane Austen",
     "is_correct": false
   }
 },
@@ -489,8 +488,8 @@
   "pk": 43,
   "fields": {
     "question": 11,
-    "choice_text": "France",
-    "is_correct": true
+    "choice_text": "George Orwell",
+    "is_correct": false
   }
 },
 {
@@ -498,11 +497,10 @@
   "pk": 44,
   "fields": {
     "question": 11,
-    "choice_text": "Germany",
+    "choice_text": "Charles Dickens",
     "is_correct": false
   }
 },
-
 {
   "model": "polls.question",
   "pk": 12,
@@ -553,9 +551,9 @@
   "model": "polls.question",
   "pk": 13,
   "fields": {
-    "question_text": "Which planet is known as the Red Planet?",
+    "question_text": "How many continents are there on Earth?",
     "mode": "EXAM",
-    "pub_date": "2025-07-16T10:12:00Z"
+    "pub_date": "2025-07-16T08:01:00Z"
   }
 },
 {
@@ -563,7 +561,7 @@
   "pk": 49,
   "fields": {
     "question": 13,
-    "choice_text": "Earth",
+    "choice_text": "6",
     "is_correct": false
   }
 },
@@ -572,8 +570,8 @@
   "pk": 50,
   "fields": {
     "question": 13,
-    "choice_text": "Jupiter",
-    "is_correct": false
+    "choice_text": "7",
+    "is_correct": true
   }
 },
 {
@@ -581,8 +579,8 @@
   "pk": 51,
   "fields": {
     "question": 13,
-    "choice_text": "Mars",
-    "is_correct": true
+    "choice_text": "8",
+    "is_correct": false
   }
 },
 {
@@ -590,11 +588,10 @@
   "pk": 52,
   "fields": {
     "question": 13,
-    "choice_text": "Saturn",
+    "choice_text": "5",
     "is_correct": false
   }
 },
-
 {
   "model": "polls.question",
   "pk": 14,
